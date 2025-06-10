@@ -18,15 +18,13 @@ $(document).on("keydown", function () {
 $(document).on("touchstart", function (e) {
     let touchedId = $(e.target).attr("id");
 
-    if (touchedId === "header" || touchedId === "footer") {
-        return; // Don't start the game
-    }
-
-    if (!started) {
+    if (touchedId !== "header" && touchedId !== "footer")      {if (!started) {
         started = true;
         $("#level-title").text("Level " + level);
         nextSequence();
     }
+}
+
 });
 
 
