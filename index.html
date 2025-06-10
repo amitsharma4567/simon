@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="./logo.png" alt="logo" />
+    <button id="rules">Rules<i class="fas fa-angle-down"></i></button>
+  </header>
+  <div id="rulesContent" style="display: none;">
+    <p>1. The game will light up a sequence of colors, one at a time. Pay attention to the order!</p>
+    <p>2. Click the buttons in the same order as shown. Start from the first color and follow along.</p>
+    <p>3. Each round, the pattern gets longer by one step. Try to remember the entire sequence.</p>
+    <p>4. If you click the wrong color, the game ends. Try again to beat your previous score!</p>
+    <p>5. Each correct sequence takes you to the next level. How high can you go?</p>
+  </div>
+  <hr>
+  <h1 id="level-title">Press Any Key to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <footer>
+    <p>© 2025.</p>
+    <button id="github">GitHub Repo.</button>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./game.js" charset="utf-8">
+  </script>
+</body>
+
+</html>
