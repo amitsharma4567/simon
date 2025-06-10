@@ -15,7 +15,7 @@ $(document).on("keydown", function () {
     }
 });
 
-$(document).on('touchend', function() {
+$(document).on("touchend", function() {
     if (!started) {
         started = true;
         $("#level-title").text("Level " + level);
