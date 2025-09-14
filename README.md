@@ -2,6 +2,10 @@
 
 A browser-based implementation of the classic **Simon memory game** built for learning web development fundamentals.
 
+## Play Online
+
+[Play Live](https://amitsharma4567.github.io/simon)
+
 ## Features
 
 - Classic four-color Simon game interface.
