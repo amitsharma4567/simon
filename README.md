@@ -17,7 +17,8 @@ A browser-based implementation of the classic **Simon memory game** built for le
 
 ## Getting Started
 
-1. **Clone the repository: `git clone https://github.com/amitsharma4567/simon.git`**
+1. **Clone the repository: 
+`git clone https://github.com/amitsharma4567/simon.git`**
 2. **Open `index.html`** in your browser.
 
 ## Directory Structure
