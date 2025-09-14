@@ -17,15 +17,15 @@ A browser-based implementation of the classic **Simon memory game** built for le
 
 ## Getting Started
 
-1. **Clone the repository:**git clone https://github.com/amitsharma4567/simon.git**
+1. **Clone the repository:**git clone https://github.com/amitsharma4567/simon.git
 2. **Open `index.html`** in your browser.
 
 ## Directory Structure
 
 - `index.html` – Main web page.
-- `style.css` – Stylesheet for design.
-- `game.js` or similar (if present) – Handles game logic.
-- Asset files for images/sounds if available.
+- `style.css`  – Stylesheet for design.
+- `game.js`    – Handles game logic.
+- Asset files for sounds.
 
 ## How to Play
 
@@ -33,7 +33,7 @@ A browser-based implementation of the classic **Simon memory game** built for le
 - Watch the sequence of colors.
 - Repeat the sequence by clicking the color buttons in order.
 - Sequence length increases as you progress.
-- The game ends on a mistake—try to beat your high score!
+- The game ends on a mistake, try to beat your high score!
 
 ## Contributing
 
